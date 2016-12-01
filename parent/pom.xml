@@ -6,7 +6,7 @@
 	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>parent</name>
-	<url>http://code.taobao.org/svn/jeep_crm/crm-parent</url>
+	<url>https://github.com/zhanglongjian/easyframework</url>
 
 	<!-- 分发构件管理 -->
 	<distributionManagement>
@@ -65,7 +65,7 @@
 		<ehcache.version>2.6.11</ehcache.version>
 		<chcache-web.version>2.0.4</chcache-web.version>
 		<!-- utils -->
-		<fastjson.version>1.2.13</fastjson.version>
+		<fastjson.version>1.2.21</fastjson.version>
 		<cglib.version>3.2.4</cglib.version>
 		<asm.version>5.1</asm.version>
 		<commons-lang3.version>3.4</commons-lang3.version>
@@ -95,8 +95,8 @@
 		<zookeeper.version>3.4.8</zookeeper.version>
 		<zkclient.version>0.1</zkclient.version>
 		<!-- 数据库相关 -->
-		<mysql.version>5.1.39</mysql.version>
-		<druid.version>1.0.26</druid.version>
+		<mysql.version>5.1.40</mysql.version>
+		<druid.version>1.0.27</druid.version>
 		<h2.version>1.4.192</h2.version>
 	</properties>
 	<!-- 依赖 -->
