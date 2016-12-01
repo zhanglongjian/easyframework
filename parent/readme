@@ -1,0 +1,25 @@
+crm-common用svn检出：
+   1）运行 run as maven build... 
+   2）在goals中输入：clean install    (清楚target的内容，并把crm-common安装到本地仓库)
+  
+crm-parent为所有子模块的父项目，所有的子模块的项目的坐标都在crm-parent的pom.xml复制
+          复制到子项目需要把版本去掉，只保留groupid,和artifactId
+     1)运行run as maven build... clean install会把所有的子模块装载到本地仓库
+
+附maven命令：
+      clean 清除target信息
+      package  打包
+      compile  编译
+      test     测试
+      
+ 写法如：clean package
+        clean compile
+        clean test
+
+crm-web  
+    1)采用是jetty的服务器
+       所以运行服务器的命令：clean compile jetty:run   清除target，重新编译，并使用jetty运行
+                   或者                    clean package jetty:run    清除target,打包，并使用jetty运行
+            停掉jetty服务器:   jetty:stop
+                        或者 点击console 的红点 
+          
