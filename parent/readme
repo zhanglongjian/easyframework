@@ -23,6 +23,7 @@ web
        所以运行服务器的命令：clean compile jetty:run   清除target，重新编译，并使用jetty运行
                    或者                    clean package jetty:run    清除target,打包，并使用jetty运行
             停掉jetty服务器:   jetty:stop
+    2)
 
 
               
