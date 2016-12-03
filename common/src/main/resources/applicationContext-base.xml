@@ -23,5 +23,5 @@
 			expression="com.easyframework.*.controller.*"/>
 	</context:component-scan>
 	<!-- SpringContextHandler定义 -->
-	<bean class="com.bitch.common.utils.SpringContextHolder" lazy-init="false" />
+	<bean class="com.easyframework.common.utils.SpringContextHolder" lazy-init="false" />
 </beans>
