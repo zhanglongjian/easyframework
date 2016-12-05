@@ -67,7 +67,7 @@
     </logger>
 
     <!-- cache -->
-    <logger name="com.sishuok.es.extra.aop" level="info">
+    <logger name="com.easyframework.extra.aop" level="info">
             <appender-ref ref="STDOUT"/>
     </logger>
 
