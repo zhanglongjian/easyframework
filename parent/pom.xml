@@ -43,11 +43,11 @@
 		<jstl.version>1.2</jstl.version>
 		<jspapi.version>2.2</jspapi.version>
 		<!-- spring & spring web -->
-		<spring.version>4.3.3.RELEASE</spring.version>
+		<spring.version>4.3.4.RELEASE</spring.version>
 		<!-- jpa -->
 		<jpa.version>5.2.3.Final</jpa.version>
 		<jta.version>1.1</jta.version>
-		<springDataJPA.version>1.10.4.RELEASE</springDataJPA.version>
+		<springDataJPA.version>1.10.5.RELEASE</springDataJPA.version>
 		<!-- mybatis -->
 		<mybatis.version>3.4.1</mybatis.version>
 		<!-- aop -->
@@ -59,19 +59,19 @@
 		<jetty.version>9.3.12.v20160915</jetty.version>
 		<!-- secuity -->
 		<httpClient.version>4.5.2</httpClient.version>
-		<shiro.version>1.2.5</shiro.version>
+		<shiro.version>1.3.1</shiro.version>
 		<jsoup.version>1.9.2</jsoup.version>
 		<!--cache -->
 		<ehcache.version>2.6.11</ehcache.version>
 		<chcache-web.version>2.0.4</chcache-web.version>
 		<!-- utils -->
-		<fastjson.version>1.2.21</fastjson.version>
+		<fastjson.version>1.2.22</fastjson.version>
 		<cglib.version>3.2.4</cglib.version>
 		<asm.version>5.1</asm.version>
 		<commons-lang3.version>3.4</commons-lang3.version>
 		<commons-collections4.version>4.1</commons-collections4.version>
 		<commons-io.version>2.5</commons-io.version>
-		<guava.version>19.0</guava.version>
+		<guava.version>20.0</guava.version>
 		<commons-codec.version>1.10</commons-codec.version>
 		<commons-beanutils.version>1.9.2</commons-beanutils.version>
 		<commons-fileupload.version>1.3.2</commons-fileupload.version>
@@ -92,12 +92,14 @@
 		<quartz.version>2.2.3</quartz.version>
 		<!--分布式 -->
 		<dubbo.version>2.5.3</dubbo.version>
-		<zookeeper.version>3.4.8</zookeeper.version>
+		<zookeeper.version>3.4.9</zookeeper.version>
 		<zkclient.version>0.1</zkclient.version>
 		<!-- 数据库相关 -->
 		<mysql.version>5.1.40</mysql.version>
 		<druid.version>1.0.27</druid.version>
 		<h2.version>1.4.192</h2.version>
+		<!-- poi组件 -->
+		<poi.version>3.15</poi.version>
 	</properties>
 	<!-- 依赖 -->
 	<dependencyManagement>
@@ -298,6 +300,12 @@
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-compress</artifactId>
 				<version>${commons-compress.version}</version>
+			</dependency>
+			<!--poi组件 -->
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi</artifactId>
+				<version>${poi.version}</version>
 			</dependency>
 			<!--数据源相关 / 数据库 -->
 			<dependency>
